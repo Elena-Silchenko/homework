@@ -7,12 +7,15 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
-  padding: 20px;
+  padding: 40px;
 }
 
 .wrapper {
   background-color: #fff;
   display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
 .sidebar {
@@ -74,4 +77,119 @@ body {
 
 .sidebar-list-item {
   color: #fff;
+}
+
+.about-me-container .about-me-compact {
+  margin-bottom: 64px;
+}
+
+.about-me-container .about-me-compact h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  margin-bottom: 24px;
+}
+
+.about-me-container .about-me-compact h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+  margin-bottom: 24px;
+}
+
+.about-me-container .about-me-compact p {
+  width: 413px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.about-me-container h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.projects-container ol {
+  margin-left: 16px;
+}
+
+.projects-container {
+  margin-bottom: 50px;
+}
+
+.projects-container ol li {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.projects-container ol li a {
+  color: #595959;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.projects-container .dots,
+.projects-container .skills {
+  font-weight: 400;
+  color: #595959;
+}
+
+.work-experience,
+.education {
+  margin-bottom: 55px;
+}
+
+.work-experience h4,
+.education h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+
+.education h5 {
+  margin-bottom: 14px;
+}
+
+.work-experience h4 .company-name,
+.education h4 {
+  color: #ff6b08;
+}
+
+.work-experience-item,
+.education-item {
+  margin-bottom: 24px;
+}
+
+.work-experience-additional-info,
+.education-additional-info {
+  margin-bottom: 8px;
+}
+
+.work-experience-date,
+.work-experience-country,
+.education-date,
+.education-country {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.36px;
+}
+
+.work-experience-item ul {
+  width: 535px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  margin-left: 16px;
 }
