@@ -4,53 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My resume</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Main container -->
-    <div>
-      <aside>
+    <div class="wrapper">
+      <aside class="sidebar">
         <img
+          class="my-photo"
           src="./img/photo_2020-05-10_17-44-59.jpg"
           alt="My photo"
-          height="200"
         />
-        <!-- Contacts container -->
-        <div>
-          <h3>Contacts</h3>
-          <div>C: <a href="tel:+380951138598">+38 095 113 85 98</a></div>
-          <div>
-            E: <a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
+
+        <div class="main-container">
+          <!-- Contacts container -->
+          <div class="contacts-container">
+            <h3 class="sidebar-title">Contacts</h3>
+            <div>
+              <span class="contacts-captions">C:</span>
+              <a class="contacts-link" href="tel:+380951138598"
+                >+38 095 113 85 98</a
+              >
+            </div>
+            <div>
+              <span class="contacts-captions">E:</span>
+              <a class="contacts-link" href="mailto:chornyiav@gmail.com"
+                >chornyiav@gmail.com</a
+              >
+            </div>
           </div>
-        </div>
 
-        <!-- Tech skills container -->
-        <div>
-          <h3>Tech Skills</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>GIT</li>
-            <li>WebPack</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-          </ul>
-        </div>
+          <!-- Tech skills container -->
+          <div class="tech-skills-container">
+            <h3 class="sidebar-title">Tech Skills</h3>
+            <ul class="sidebar-list">
+              <li><span class="sidebar-list-item">HTML5</span></li>
+              <li><span class="sidebar-list-item">CSS3</span></li>
+              <li><span class="sidebar-list-item">GIT</span></li>
+              <li><span class="sidebar-list-item">WebPack</span></li>
+              <li><span class="sidebar-list-item">JavaScript</span></li>
+              <li><span class="sidebar-list-item">React.js</span></li>
+              <li><span class="sidebar-list-item">Node.js</span></li>
+            </ul>
+          </div>
 
-        <!-- Soft Skills Container -->
-        <div>
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>Scrum</li>
-            <li>Agile</li>
-            <li>GTD</li>
-            <li>Teamwork</li>
-          </ul>
+          <!-- Soft Skills Container -->
+          <div class="soft-skills-container">
+            <h3 class="sidebar-title">Soft Skills</h3>
+            <ul class="sidebar-list">
+              <li><span class="sidebar-list-item">Scrum</span></li>
+              <li><span class="sidebar-list-item">Agile</span></li>
+              <li><span class="sidebar-list-item">GTD</span></li>
+              <li><span class="sidebar-list-item">Teamwork</span></li>
+            </ul>
+          </div>
         </div>
       </aside>
 
       <!-- About me container -->
-      <div>
+      <div class="about-me-container">
         <!-- About me main info -->
         <div>
           <h2>Front-End Developer</h2>
