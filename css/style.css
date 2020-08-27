@@ -225,3 +225,13 @@ body {
     flex-direction: column;
   }
 }
+
+@media (max-width: 470px) {
+  .my-photo {
+    width: 100%;
+  }
+  .about-me-container .about-me-compact h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
