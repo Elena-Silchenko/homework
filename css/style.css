@@ -198,3 +198,30 @@ body {
   letter-spacing: 0.42px;
   margin-left: 16px;
 }
+
+@media (max-width: 900px) {
+  .projects-container .dots {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .sidebar1 {
+    display: flex;
+  }
+}
+
+@media (max-width: 850px) and (min-width: 700px) {
+  .main-container {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .sidebar1 {
+    flex-direction: column;
+  }
+}
